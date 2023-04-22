@@ -22,19 +22,19 @@
               <div class="row mt-3">
                 <p>Solution Type</p>
                 <span>
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="1">
+                    <input class="form-check-input" type="radio" name="Solution" id="Solution1" value="1">
                     <label class="form-check-label" style="padding-right: 5%"  for="gridRadios1">Factory</label>
                     
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="2">
+                    <input class="form-check-input" type="radio" name="Solution" id="Solution1" value="2">
                     <label class="form-check-label" for="gridRadios1">Full Card</label>
                 </span>
               </div>
               <div class="row mt-3">
                 <span>
                     <label style="padding-right:2%">Referred</label>
-                    <input class="form-check-input" type="radio" name="gridRadios" id="Referred1" value="1">
+                    <input class="form-check-input" type="radio" name="Referred" id="Referred1" value="1">
                     <label class="form-check-label" style="padding-right: 5%" for="Referred1">Yes</label>
-                    <input class="form-check-input" type="radio" name="gridRadios" id="Referred2" value="2">
+                    <input class="form-check-input" type="radio" name="Referred" id="Referred2" value="2">
                     <label class="form-check-label" for="Referred2">No</label>
                 </span>
               </div>
