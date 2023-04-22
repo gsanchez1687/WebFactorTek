@@ -1,5 +1,5 @@
 <div id="characteristics">
-    <div class="content">
+    <div class="content animate__animated animate__fadeIn">
          @if ($data['data'][0]['category'] == 1)
             <h1 class="title-style">{{ $data['data'][0]['title'] }}</h1>
             <hr>

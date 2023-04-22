@@ -4,7 +4,7 @@
             <div class="follow">
                 Follow us: 
                 @for ($i = 0; $i < count($data['data']); $i++)
-                    <span><i class="{{ $data['data'][$i]['icon'] }}"></i></span>    
+                    <span class="link-style"><a href="#"><i class="{{ $data['data'][$i]['icon'] }}"></i></a></span>    
                 @endfor
             </div>
         </div>

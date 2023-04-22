@@ -1,12 +1,12 @@
 <div id="benefits">
-    <div class="content">
+    <div class="content animate__animated animate__fadeIn">
             <h1 class="title-style">{{ $data['data'][0]['title'] }}</h1>
             <hr>
             <h2 class="description-style">{{ $data['data'][0]['description'] }}</h2>
             <div class="row mt-4">
                 @for ($i = 1; $i < count($data['data']); $i++)
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;height:26rem">
+                    <div class="card" style="width: 22rem;height:26rem">
                         <img src="{{ $data['data'][$i]['imageheader'] }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <img width="100px" src="{{ $data['data'][$i]['imagemini'] }}" class="imagemini" alt="...">

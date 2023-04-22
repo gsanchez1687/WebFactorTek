@@ -17,10 +17,11 @@
 <body>
     <div id="app">
         <main class="container">
-            @include('components.header.network')
+            @include('components.header.network',['data'=>$responseNetworks])
             @include('components.header.menu')
         @yield('content')
             @include('components.home.networks',['data'=>$responseNetworks])
+            @include('components.home.footer',['data'=>$responseContacs])
         </main>
     </div>
 </body>

@@ -1,7 +1,7 @@
 <div style="background-image: url( {{ $data['data'][0]['image'] }} )" id="banner">
 
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 animate__animated animate__fadeIn">
             <div class="title-banner">
                 <h1>{{ $data['data'][0]['title'] }}</h1>
             </div>

@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu animate__animated animate__fadeIn">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="col-lg-4">
             <a class="navbar-brand" href="#"> <span class="factor-style">factor</span><span class="tek-style">tek</span> </a>

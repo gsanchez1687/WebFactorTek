@@ -47,4 +47,14 @@ class ApiResponse{
 			}
 	   }
     }
+	public static function getContacs(){
+		$url_api = "http://127.0.0.1:8000/contacts";
+        $response = Http::get($url_api);
+       if( !empty($response) ){
+			if($response['code'] == "200" ){
+				$json = $response->json();
+				return $json;
+			}
+	   }
+    }
 }

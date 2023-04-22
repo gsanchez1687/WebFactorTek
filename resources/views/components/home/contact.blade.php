@@ -1,4 +1,4 @@
-<div id="contact">
+<div id="contact" class="animate__animated animate__fadeIn">
     <div class="form-style d-none d-sm-block d-sm-none d-md-block">
         <div class="input-style">
             <div class="mb-3">
