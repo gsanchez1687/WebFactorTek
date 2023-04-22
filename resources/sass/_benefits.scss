@@ -1,0 +1,23 @@
+#benefits{
+    background-color: #ecf0f1;
+    height: auto;
+    .content{
+        padding: 50px 100px 40px 100px;
+    }
+    .title-style{
+        font-family: 'AirbnbCerealBold';
+        text-align: center;
+        color: #1e3799;
+    }
+    .description-style{
+        font-family: 'AirbnbCerealLight';
+        color: #000;
+        text-align: center;
+        font-size: 1em;
+    }
+    .imagemini{
+        display: block;
+        margin: auto;
+      
+    }
+}

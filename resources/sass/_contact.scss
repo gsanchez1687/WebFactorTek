@@ -1,0 +1,20 @@
+#contact{
+    color: #1e3799;
+    font-weight: bold;
+    padding: 30px 10px 10px 80px;
+    .form-style{
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        background-color: #FFF;
+        width: 90%;
+        height: 550px;
+    }
+    .input-style{
+        padding: 10px 10px 10px 10px;
+    }
+    .btn{
+        color: #FFF;
+        border-radius: 0px !important;
+    }
+}
