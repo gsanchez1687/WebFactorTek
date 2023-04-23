@@ -20,4 +20,15 @@
         margin: auto;
       
     }
+    .card{
+        height:26rem
+    }
+    @media (max-width: 480px) {
+        .content{
+            padding: 50px 0px 40px 10px;
+        }
+        .card{
+            margin-bottom: 20px;
+        }
+    }
 }

@@ -19,4 +19,12 @@
         font-family: 'AirbnbCerealBold';
         font-size: 1.5em;
     }
+    @media (max-width: 480px) {
+        .content{
+            padding: 50px 10px 40px 10px;  
+        }
+        .card{
+            margin-bottom: 20px;
+        }
+    }
 }
