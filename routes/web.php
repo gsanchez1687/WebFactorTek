@@ -1,7 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Redirect;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +17,8 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/',[HomeController::class,'index']);
+
+Route::get('locale/{locale}',function($locale){
+    session()->put('locale',$locale);
+    return Redirect::back();
+});

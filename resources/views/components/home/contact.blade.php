@@ -2,25 +2,25 @@
     <div class="form-style d-none d-sm-block d-sm-none d-md-block">
         <div class="input-style">
             <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Name">
+                <label for="name" class="form-label">{{ __('messages.nameform') }}</label>
+                <input type="text" class="form-control" id="name" placeholder="{{ __('messages.nameform') }}">
               </div>
               <div class="mb-3">
-                <label for="companyname" class="form-label">Company name</label>
-                <input type="text" class="form-control" id="companyname" placeholder="Company Name">
+                <label for="companyname" class="form-label">{{ __('messages.companyname') }}</label>
+                <input type="text" class="form-control" id="companyname" placeholder="{{ __('messages.companyname') }}">
               </div>
               <div class="row">
                 <div class="col">
-                  <label for="phone-number" class="form-label">Phone Number</label>
-                  <input type="text" class="form-control" id="phone-number" placeholder="Phone Number" aria-label="First name">
+                  <label for="phone-number" class="form-label">{{ __('messages.phonenumber') }}</label>
+                  <input type="text" class="form-control" id="phone-number" placeholder="{{ __('messages.phonenumber') }}" aria-label="First name">
                 </div>
                 <div class="col">
-                  <label for="company-email" class="form-label">Phone Number</label>
-                  <input type="text" class="form-control" id="company-email" placeholder="Email" aria-label="Last name">
+                  <label for="email" class="form-label">{{ __('messages.email') }}</label>
+                  <input type="text" class="form-control" id="company-email" placeholder="{{ __('messages.email') }}" aria-label="Email">
                 </div>
               </div>
               <div class="row mt-3">
-                <p>Solution Type</p>
+                <p>{{ __('messages.solutiontype') }}</p>
                 <span>
                     <input class="form-check-input" type="radio" name="Solution" id="Solution1" value="1">
                     <label class="form-check-label" style="padding-right: 5%"  for="gridRadios1">Factory</label>
@@ -31,22 +31,22 @@
               </div>
               <div class="row mt-3">
                 <span>
-                    <label style="padding-right:2%">Referred</label>
+                    <label style="padding-right:2%">{{ __('messages.referred') }}</label>
                     <input class="form-check-input" type="radio" name="Referred" id="Referred1" value="1">
-                    <label class="form-check-label" style="padding-right: 5%" for="Referred1">Yes</label>
+                    <label class="form-check-label" style="padding-right: 5%" for="Referred1">{{ __('messages.yes') }}</label>
                     <input class="form-check-input" type="radio" name="Referred" id="Referred2" value="2">
-                    <label class="form-check-label" for="Referred2">No</label>
+                    <label class="form-check-label" for="Referred2">{{ __('messages.no') }}</label>
                 </span>
               </div>
               
               <div class="row mt-3">
                 <div>
-                    <label for="additional-comments">Additional Comments</label>
-                    <textarea class="form-control" placeholder="Additional Comments" id="additional-comments" style="height: 50px"></textarea>
+                    <label for="additional-comments">{{ __('messages.additionalcomments') }}</label>
+                    <textarea class="form-control" placeholder="{{ __('messages.additionalcomments') }}" id="additional-comments" style="height: 50px"></textarea>
                   </div>
               </div>
               <div class="pt-3 d-grid gap-2 d-md-flex justify-content-md-end">
-                <button type="button" class="btn btn-warning">Submit</button>
+                <button type="button" class="btn btn-warning">{{ __('messages.submit') }}</button>
               </div>
             
         </div>

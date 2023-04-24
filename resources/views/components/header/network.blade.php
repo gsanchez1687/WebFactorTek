@@ -4,11 +4,11 @@
             <div class="network-icon text-white d-flex justify-content-end mx-4">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Lang
+                        {{ __('messages.lang') }}
                       </a>
                       <ul class="dropdown-menu bg-dark bg-gradient">
-                        <li><a class="dropdown-item" href="#">ES</a></li>
-                        <li><a class="dropdown-item" href="#">EN</a></li>
+                        <li><a class="dropdown-item" href="{{ url('locale/es') }}">ES</a></li>
+                        <li><a class="dropdown-item" href="{{ url('locale/en') }}">EN</a></li>
                       </ul>
                 </li>
                 @for ($i = 0; $i < count($data['data']); $i++)
