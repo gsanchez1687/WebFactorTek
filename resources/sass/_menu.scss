@@ -1,7 +1,7 @@
-.menu{
+#menu{
     padding-left: 5%;
-    background-color: transparent;
-    border: 0px solid transparent;
+    background-color: #FFF;
+    border: 0px solid #FFF;
     height: 60px;
     .factor-style{
         font-family: 'AirbnbCerealBold';
@@ -14,5 +14,8 @@
         font-size: 1.6em;
         text-transform: uppercase;
         color: #60a3bc;
+    }
+    .offcanvas-body{
+        display:block;
     }
 }
