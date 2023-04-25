@@ -1,8 +1,10 @@
 #headernetworks{
     background-color: #1e3799;
     height: 3.4em;
-    z-index: 9;
-    position: relative;
+    .network-z-index{
+        z-index: 3;
+        position: relative;
+    }
     .network-icon{
         padding-top:0.8em;
         padding-right:3.5em;
@@ -29,5 +31,9 @@
         .network-icon{
             padding-right:0em;
         } 
+        .network-z-index{
+            z-index: 4;
+            position: relative;
+        }
     }
 }

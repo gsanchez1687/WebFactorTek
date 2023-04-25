@@ -9,7 +9,6 @@
                 <div class="col-md-10">
                     <h2>{{ $data['data'][0]['description'] }}</h2>
                 </div>
-                
             </div>
         </div>
         <div class="col-md-6">
