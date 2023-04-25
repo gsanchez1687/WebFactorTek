@@ -11,7 +11,7 @@
                     <div style="height: 10%;" class="card-body">
                         @if ($data['data'][1]['category'] == 2)
                             <div class="row">
-                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="col-md-6 col-sm-6 col-xs-12 text-center">
                                    <img class="img-fluid" alt="funding" src="{{ $data['data'][1]['image'] }}">
                                 </div>
                                 <div class="col-md-6 col-sm-6 text-funding">
@@ -29,7 +29,7 @@
                     <div style="height: 10%;" class="card-body">
                       @if ($data['data'][2]['category'] == 2)
                         <div class="row">
-                            <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-12 text-center">
                             <img class="img-fluid" alt="funding" src="{{ $data['data'][2]['image'] }}">
                             </div>
                             <div class="col-md-6 col-sm-6 text-funding">
