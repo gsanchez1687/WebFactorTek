@@ -6,41 +6,23 @@
             <h2 class="description-style">{{ $data['data'][0]['description'] }}</h2>
          @endif
          <div class="row mt-4">
+            @for ($i = 1; $i < count($data['data']); $i++)
             <div class="col-md-6 col-sm-12">
                 <div class="card">
                     <div style="height: 10%;" class="card-body">
-                        @if ($data['data'][1]['category'] == 2)
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12 text-center">
-                                   <img class="img-fluid" alt="funding" src="{{ $data['data'][1]['image'] }}">
-                                </div>
-                                <div class="col-md-6 col-sm-6 text-funding">
-                                    <h3>{{ $data['data'][1]['title'] }}</h3>
-                                    <h4>{{ ($data['data'][1]['description']) }}</h4>
-                                    
-                                </div>
-                            </div>
-                        @endif
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div style="height: 10%;" class="card-body">
-                      @if ($data['data'][2]['category'] == 2)
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12 text-center">
-                            <img class="img-fluid" alt="funding" src="{{ $data['data'][2]['image'] }}">
+                                <img class="img-fluid" alt="funding" src="{{ $data['data'][$i]['image'] }}">
                             </div>
                             <div class="col-md-6 col-sm-6 text-funding">
-                                <h3>{{ $data['data'][2]['title'] }}</h3>
-                                <h4>{{ ($data['data'][2]['description']) }}</h4>
+                                <h3>{{ $data['data'][$i]['title'] }}</h3>
+                                <h4>{{ ($data['data'][$i]['description']) }}</h4>
                             </div>
                         </div>
-                    @endif
                     </div>
-                  </div>
+                </div>
             </div>
+            @endfor
          </div>
     </div>
 </div>
